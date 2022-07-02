@@ -1,0 +1,103 @@
+
+{
+"dataBase":{
+    "posts": [
+        {
+            "id": 1,
+            "category": "Elektronik",
+            "image": "https://i.ibb.co/9crfVgr/product1.png",
+            "title": "Z6 Akıllı Saat Kameralı Konuşma Garantili Sim Kartlı Bluetooth",
+            "freeShipping": true,
+            "price": 399.90
+        },
+        {
+            "id": 2,
+            "category": "Parfüm",
+            "image": "https://i.ibb.co/7WsZDB0/product2.png",
+            "title": "Calvin Klein Euphoria EDP 100 ml Kadın Parfüm",
+            "freeShipping": false,
+            "price": 145.61
+        },
+        {
+            "id": 3,
+            "category": "Çiçek",
+            "image": "https://i.ibb.co/d7qzqVN/product3.png",
+            "title": "Gold Çizgili Vazoda 2 Dal Orkide Çiçeği",
+            "freeShipping": true,
+            "price": 249.90
+        },
+        {
+            "id": 4,
+            "category": "Moda, Aksesuar",
+            "image": "https://i.ibb.co/KDDqDT9/product4.png",
+            "title": "925 Ayar Gümüş Çeyreklik Bileklik (Y)",
+            "freeShipping": false,
+            "price": 329.90
+        },
+        {
+            "id": 5,
+            "category": "Moda, Aksesuar",
+            "image": "https://i.ibb.co/GCGv2qv/product5.png",
+            "title": "Sailor SD-3160 Siyah Dağcı Seyahat Sırt Çantası 55 LT Outdoor-Trekking",
+            "freeShipping": true,
+            "price": 499.90
+        },
+        {
+            "id": 6,
+            "category": "Oyuncak",
+            "image": "https://i.ibb.co/TRGx1C3/product6.png",
+            "title": "Büyük Boy Metal Osmanlı Bizans Satranç Takımı Parlak ve Cev...",
+            "freeShipping": true,
+            "price": 19.90
+        },
+        {
+            "id": 7,
+            "category": "Oyuncak",
+            "image": "https://i.ibb.co/vmcVwRq/product7.png",
+            "title": "130 Cm Papyonlu Büyük Ayıcı (%100 Yerli)",
+            "freeShipping": true,
+            "price": 89.90
+        },
+        {
+            "id": 8,
+            "category": "Hediye",
+            "image": "https://i.ibb.co/ggfbYyx/product8.png",
+            "title": "925 Ayar Gümüş Dualı İsimli Nazar İgnesi",
+            "freeShipping": true,
+            "price": 29.90
+        },
+        {
+            "id": 9,
+            "category": "Hediye",
+            "image": "https://i.ibb.co/Lnyhrjg/product9.png",
+            "title": "Özel Tatlar Çikolata Kutusu 300 gr",
+            "freeShipping": true,
+            "price": 59.90
+        },
+        {
+            "id": 10,
+            "category": "Çiçek",
+            "image": "https://i.ibb.co/LYx9y1k/product10.png",
+            "title": "Kucak Dolusu Aşk 25 Kırmızı Gül Buketi",
+            "freeShipping": false,
+            "price": 199.90
+        }
+    ],
+    "category": [
+        "Elektronik",
+        "Ev ve Yaşam",
+        "Evcil Hayvan",
+        "Kitap",
+        "Oyuncak",
+        "Spor",
+        "Çiçek",
+        "Hediye",
+        "Moda,Aksesuar",
+        "Ofis,Kırtasiye",
+        "Parfüm",
+        "Kişisel Bakım",
+        "Petshop"
+    ]
+
+}
+}

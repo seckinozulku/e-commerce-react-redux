@@ -1,0 +1,207 @@
+// Header
+
+.header-wrapper {
+  width: 100%;
+  height: 90px;
+  padding: 0 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+    
+  .company-logo {
+      background: transparent url(../../Image/dummy-logo1.png) 0 0 no-repeat padding-box;
+      width: 163px;
+      height: 32px;
+    }
+  
+
+
+  .search-input-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 60%;
+    margin-right: 55px;
+
+    .magnifying-glass {
+      position: absolute;
+      left: 20px;
+      width: 18px;
+      height: 20px;
+      background: transparent url(../../Image/search-logo.svg) 0 0 no-repeat padding-box;
+      color: #b6a9a9;
+      z-index: 1;
+    }
+
+    .search-input {
+      padding-left: 50px;
+      background: #F7F7F7;
+      border: 2px solid #EDF1F2;
+      border-radius: 28px;
+      outline: none;
+      height: 50px;
+      width: 100%;
+    }
+
+    .search-button {
+      position: absolute;
+      right: 9px;
+      width: 66px;
+      height: 40px;
+      background: #51B549;
+      border: 2px solid #EDF1F2;
+      border-radius: 28px;
+      text-align: center;
+      font: normal normal normal 18px/22px Source Sans Pro;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+
+  .cart-shopping-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 142px;
+
+    .cart-shopping {
+      position: absolute;
+      left: 20px;
+      width: 23px;
+      height: 23px;
+      background: transparent url(../../Image/shopping-basket.svg) 0 0 no-repeat padding-box;
+      z-index: 1;
+    }
+
+    .cart-button {
+      width: 100%;
+      border: none;
+      background: #044DC3;
+      border-radius: 27px;
+      font: normal normal 600 16px/20px Source Sans Pro;
+      color: #FFFFFF;
+      outline: none;
+      cursor: pointer;
+      height: 50px;
+
+      &:hover {
+        background-color: #1000f5;
+        transition: 0.5s;
+      }
+
+      span {
+        margin-left: 20px;
+      }
+    }
+
+    .notification-bubble {
+      position: absolute;
+      top: -10px;
+      right: 5px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #FF5B4D;
+      text-align: center;
+
+      .notification-piece {
+        text-align: left;
+        font: normal normal bold 16px/19px Source Sans Pro;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+}
+
+//  Section
+
+.section-wrapper {
+  position: relative;
+  width: 100%;
+  height: 74px;
+  background: transparent url(../../Image/section.png) 0 0 no-repeat padding-box;
+  padding: 0 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .company-header {
+    width: 219px;
+    height: auto;
+    font: normal normal normal 35px/15px Source Sans Pro;
+    color: #FFFFFF;
+  }
+
+  .cargo-notification {
+    position: absolute;
+    top: -10px;
+    right: 222px;
+    width: 343px;
+    height: 69px;
+    border-radius: 15px;
+    background: #F54257;
+
+    .cargo-notification-arrow {
+      position: absolute;
+      top: -12px;
+      left: 275px;
+      width: 12px;
+      height: 12px;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid #F54257;
+    }
+
+    .free-cargo-goal {
+      position: absolute;
+      top: 20px;
+      left: 44px;
+      width: 295px;
+      height: 19px;
+    }
+
+    .notification-thunder {
+      position: absolute;
+      top: -3px;
+      left: -25px;
+      width: 18px;
+      height: 25px;
+      background: transparent url(../../Image/notification-thunder.png) 0 0 no-repeat padding-box;
+    }
+
+    .cargo-price-dynamic {
+      text-align: left;
+      font: normal normal 600 15px/11px Source Sans Pro;
+      color: #FFCE00;
+    }
+
+    .cargo-price-static {
+      text-align: left;
+      font: normal normal 600 15px/11px Source Sans Pro;
+      color: #FFFFFF;
+    }
+
+    .free-cargo-bar {
+      position: absolute;
+      top: 50px;
+      right: 9px;
+      width: 293px;
+      height: 5px;
+      background: #D01D32;
+      border-radius: 22px;
+
+      .free-cargo-bar-inside {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        height: 5px;
+        background: #FFCE00;
+        border-radius: 22px;
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.discount-wrapper {
+    padding: 35px 220px;
+    margin: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 26px;
+
+    .free-delivery {
+        background: #FFEAE8 0% 0% no-repeat padding-box;
+
+        .free-delivery-img {
+            display: inline-block;
+            border-radius: 10px;
+            width: 167px;
+            height: 133px;
+            background: transparent url(../../Image/free-delivery.png) 0% 0% no-repeat padding-box;
+        }
+    }
+
+    .gift {
+        background: #E8F1FF 0% 0% no-repeat padding-box;
+
+        .gift-img {
+            display: inline-block;
+            border-radius: 10px;
+            width: 167px;
+            height: 133px;
+            background: transparent url(../../Image/gift.png) 0% 0% no-repeat padding-box;
+        }
+    }
+
+    .stationary {
+        background: #E2F7E1 0% 0% no-repeat padding-box;
+
+
+
+        .stationary-img {
+            display: inline-block;
+            border-radius: 10px;
+            border-color: #ffffff;
+            width: 167px;
+            height: 133px;
+            background: transparent url(../../Image/stationary.png) 0% 0% no-repeat padding-box;
+        }
+    }
+
+    .discount-card {
+        display: flex;
+        align-items: center;
+        width: 470px;
+        height: 153px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .info {
+        display: inline-block;
+        width: 250px;
+        margin-left: 20px;
+
+        h3 {
+            height: 80px;
+            font: normal normal 300 24px/30px Source Sans Pro;
+            color: #707070;
+        }
+
+        button {
+            width: 121px;
+            height: 30px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            border-radius: 15px;
+            color: #E64E41;
+            border: none;
+            cursor: pointer;
+            font: normal normal 600 13px/30px Source Sans Pro;
+        }
+    }
+}

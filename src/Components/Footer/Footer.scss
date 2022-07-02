@@ -1,0 +1,163 @@
+.footer-wrapper {
+    height: 500px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    padding: 0 220px;
+
+    .mobile-app {
+        width: 100%;
+        height: 222px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 111px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .mobile-img {
+            min-width: 352px;
+            min-height: 360px;
+            background: transparent url(../../Image/mobile-group1.png) 0% 0% no-repeat padding-box;
+            width: 352px;
+            margin-bottom: 145px;
+
+        }
+
+        .QR-app-wrapper {
+            margin-left: 35px;
+
+            .QR-wrapper {
+                display: flex;
+            }
+
+            .QR-CODE {
+                margin-right: 20px;
+                width: 60px;
+                height: 60px;
+                background: transparent url(../../Image/QR.png) 0% 0% no-repeat padding-box;
+            }
+
+            .QR-header {
+                font: normal normal bold 18px/23px Source Sans Pro;
+                color: #000000;
+            }
+
+            .QR-text {
+                font: normal normal normal 16px/20px Source Sans Pro;
+                color: #000000;
+            }
+
+            .app-wrapper {
+                display: flex;
+                margin-top: 27px;
+            }
+
+            .play-store {
+                cursor: pointer;
+                width: 175px;
+                height: 52px;
+                background: transparent url(../../Image/google-play.png) 0% 0% no-repeat padding-box;
+                margin-right: 15px;
+            }
+
+            .app-store {
+                cursor: pointer;
+                width: 197px;
+                height: 52px;
+                background: transparent url(../../Image/app-store.png) 0% 0% no-repeat padding-box;
+            }
+        }
+
+    }
+
+}
+
+.footer-last {
+    display: flex;
+    height: 300px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    padding: 0 220px;
+
+
+    .social-media-wrapper {
+        width: 32%;
+        display: inline-block;
+
+        .footer-company-logo {
+            width: 209px;
+            height: 41px;
+            background: transparent url(../../Image/dummy-logo1.png) 0% 0% no-repeat padding-box;
+        }
+
+        .social-media {
+            display: flex;
+            margin: 25px 0;
+
+            a {
+                margin-right: 55px;
+            }
+
+
+            .facebook {
+                width: 27px;
+                height: 27px;
+                background: transparent url(../../Image/facebook-footer.svg) 0% 0% no-repeat padding-box;
+
+            }
+
+            .twitter {
+                width: 28px;
+                height: 23px;
+                background: transparent url(../../Image/twitter-footer.svg) 0% 0% no-repeat padding-box;
+
+            }
+
+            .instagram {
+                width: 26px;
+                height: 26px;
+                background: transparent url(../../Image/instagram-footer.svg) 0% 0% no-repeat padding-box;
+            }
+
+            .youtube {
+                width: 34px;
+                height: 24px;
+                background: transparent url(../../Image/youtube-footer.svg) 0% 0% no-repeat padding-box;
+
+            }
+        }
+
+        .footer-personal-data-info {
+            text-align: left;
+            font: normal normal normal 15px/22px Source Sans Pro;
+            color: #000000;
+        }
+    }
+
+    .company-info{
+        width: 68%;
+        display: inline-block;
+        border-left: dotted gainsboro;
+
+    
+        .company-info-wrapper{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+
+            h4{
+                font: normal normal 600 18px/23px Source Sans Pro;
+                letter-spacing: 0px;
+                color: #044DC3;
+            }
+
+            a{
+                display: block;
+                font: normal normal 600 15px/19px Source Sans Pro;
+                color: #000000;
+                text-decoration: none;
+                margin: 10px 0;
+            }
+        }
+    }
+
+}
