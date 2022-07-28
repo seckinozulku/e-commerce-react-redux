@@ -1,5 +1,8 @@
 # Start JSON Server
 ### `npx json-server --watch src/Data/db.json --p 3002`
+
+## Live Demo 
+https://eclectic-yeot-11d4fc.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
