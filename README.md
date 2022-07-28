@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 <img src='./src/Image/ScreenShot3.jpg' alt='weatherapp' width='1000px' height='400px' />
 
-## USED TECHNOLOGIES
+## Used Technologies
 
 <br>
 
